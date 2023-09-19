@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header .top__header {
+  background-color: black;
+  color: white;
+  padding: 5px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .top__header p a {
+  color: white;
+  margin-left: 10px;
+}
+
+header .top__header .close {
+  position: absolute;
+  right: 100px;
+  top: 8px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+
+header nav ul li {
+  text-transform: capitalize;
+}
+
+header nav .search__container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  border: 1px solid grey;
+  padding: 0 15px;
+  border-radius: 20px;
+  width: 500px;
+}
+
+header nav .search__container input {
+  height: 30px;
+  width: 200px;
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+header nav .search__container input:focus {
+  border: none;
+  outline: none;
+}
+
+header nav .search__container .search__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 5%;
+}
+
+.first__section {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.row {
+  display: flex;
+  /* align-items: center; */
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.right {
+  flex: 1;
+  margin: 20px 0;
+  margin-left: 20px;
+}
+
+.full {
+  margin-left: 10px;
+}
+/* 
+.img__two {
+  width: 300px;
+  height: 300px;
+} */
+
+.img__twoimg {
+  width: 100%;
+}
+
+.second__img {
+  margin: 5px 0;
+}
+
+.right h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.right p {
+  margin-bottom: 20px;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.first {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.second {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-right: 5px;
+  text-decoration: line-through;
+  color: grey;
+}
+
+.third {
+  background-color: rgba(255, 3, 3, 0.355);
+  padding: 3px 5px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.select-c {
+  margin-top: 20px;
+}
+
+.firstt {
+  width: 25px;
+  height: 25px;
+  background-color: grey;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondd {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(5, 72, 10);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdd {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(47, 1, 51);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+.Choose-s {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sizes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.small,
+.medium,
+.xlarge {
+  background-color: rgba(182, 182, 182, 0.63);
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.large {
+  background-color: rgba(1, 1, 1, 0.929);
+  padding: 8px 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.addtocartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 45px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  background-color: rgba(182, 182, 182, 0.63);
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 8px 50px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
